@@ -1,0 +1,67 @@
+body {
+    background: url(https://www.cookingclassy.com/wp-content/uploads/2022/07/grilled-steak-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+form {
+    background-color: brown;
+    opacity: .9;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 2%;
+}
+
+label {
+    display: block;
+}
+
+#title {
+    font-size: 300%;
+}
+
+#description {
+    font-size: larger;
+}
+
+#user-info {
+    color: beige;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+#name, #email, #number, #tips, #dropdown {
+    width: 40%;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#tips {
+    width: 80%;
+    height: 30%;
+}
+
+#submit {
+    width: 40%;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+}
