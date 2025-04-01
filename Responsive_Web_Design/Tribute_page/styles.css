@@ -1,0 +1,59 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #0b2e33;
+}
+
+#title, #description {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+#title {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#description {
+    font-size: 30px;
+}
+
+#main {
+    background-color: #93b1b5;
+    border-radius: 2em;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#img-caption {
+    text-align: center;
+    padding: 20px;
+}
+
+#tribute-info {
+    background-color: #b8e3e9;
+    margin: 30px;
+    border-radius: 1em;
+}
+
+dl {
+    list-style-type: circle;
+}
+
+.date {
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
