@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+
+            <header>Introduction</header>
+            <p>Python is a powerful, high-level programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python has become one of the most popular languages in the world due to its clean syntax and versatility. Whether you're building websites, analyzing data, automating tasks, or developing software, Python provides the tools and libraries needed to get the job done efficiently. It's often recommended for beginners because it's easy to learn and understand, yet it's also used by professionals at major tech companies.</p>
+            <p>Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It has a vast standard library and an active community that contributes countless third-party packages, making it suitable for everything from web development and machine learning to game design and scripting. With its wide range of applications and beginner-friendly nature, Python is an excellent starting point for anyone looking to dive into the world of programming.</p>
+            <p>In this document we'll go over the basics of python.</p>
+       
+        </section>
+        <section class="main-section" id="Benefits">
+
+            <header>Benefits</header>
+            <ul>
+                <li>It is a General-Purpose programming language</li>
+                <li>Offers Great Readability</li>
+                <li>Supports Object-Oriented programming</li>
+                <li>It is Dynamic Typed</li>
+                <li>It is Open Source</li>
+            </ul>
+       
+        </section>
+
+        <section class="main-section" id="Variables">
+
+            <header>Variables</header>
+            <p>In Python, variables are used to store information that can be referenced and manipulated in a program. Unlike some other languages, Python does not require explicit declaration of a variable's type; the type is inferred from the value assigned. Variables are created the moment you assign a value to them using the equals sign (=). Variable names should be descriptive and follow naming rules: they must start with a letter or underscore and can contain letters, numbers, and underscores. Python is dynamically typed, meaning you can reassign a variable to a different data type without error.</p>
+            <pre>
+            <code>
+                # Assigning values to variables
+                name = "Alice"         # string
+                age = 30               # integer
+                height = 5.6           # float
+                is_student = True      # boolean
+
+                # Printing variable values
+                print(name)            # Output: Alice
+                print(age + 5)         # Output: 35
+
+                # Reassigning a variable to a different type
+                age = "thirty"
+                print(age)             # Output: thirty
+            </code>
+            </pre>
+            <p>In conclusion, variables are essential in Python as they allow you to store, update, and manage data throughout your program. They make your code more readable, reusable, and dynamic by giving meaningful names to values. Since Python is dynamically typed, you can assign different types of data to the same variable without needing to declare its type. Understanding how to use variables effectively is a key step in becoming comfortable with Python and building more complex programs.</p>
+        
+        </section>
+
+        <section class="main-section" id="Conditionals">
+
+            <header>Conditionals</header>
+            <p>In Python, conditionals are used to perform different actions based on whether a condition is true or false. The main keywords used are if, elif (else if), and else. Python uses indentation (typically 4 spaces) to define blocks of code. Conditions are usually built using comparison operators (==, !=, <, >, <=, >=) and logical operators (and, or, not). If the condition in the if statement evaluates to True, the code block under it runs. If not, Python checks the elif (if present), and finally the else block if no condition is met.</p>
+            <pre>
+            <code>
+                age = 18
+                if age >= 18:
+                print("You're an adult.")
+                elif age >= 13:
+                print("You're a teenager.")
+                else:
+                print("You're a child.")
+            </code>
+            </pre>
+            <p>You can also nest conditionals or combine conditions:</p>
+            <pre>
+            <code>
+                score = 85
+                if score >= 90:
+                    print("Grade: A")
+                elif score >= 80 and score < 90:
+                    print("Grade: B")
+                else:
+                    print("Grade: C or below")
+            </code>
+            </pre>
+            <p>In conclusion, conditionals are a crucial part of Python programming that allow your code to make decisions and respond to different inputs or situations. By using if, elif, and else statements, you can control the flow of your program and execute specific blocks of code based on logical conditions. This makes your programs more interactive, adaptable, and capable of handling a wide range of scenarios. Mastering conditionals is essential for writing clear, logical, and efficient Python code.</p>
+        
+        </section>
+
+        <section class="main-section" id="Iteration">
+
+            <header>Iteration</header>
+            <p>In Python, iteration is the process of repeating a set of instructions multiple times, typically done using loops. The two main types of loops in Python are for and while loops. A for loop is commonly used to iterate over a sequence like a list, string, or range of numbers, while a while loop runs as long as a certain condition remains true. Loops help automate repetitive tasks and are essential for processing collections of data efficiently. Python also supports loop control statements like break (to exit a loop early) and continue (to skip to the next iteration).</p>
+            <pre>
+            <code>
+                # Using a for loop to iterate over a list
+                fruits = ["apple", "banana", "cherry"]
+                for fruit in fruits:
+                    print(fruit)
+
+                # Using a for loop with range()
+                for i in range(5):
+                    print(i)  # Prints numbers 0 to 4
+
+                # Using a while loop
+                count = 0
+                while count < 3:
+                    print("Counting:", count)
+                    count += 1
+            </code>
+            </pre>
+            <p>Here's a simple example that shows how break and continue work inside a for loop:</p>
+            <pre>
+            <code>
+                # Loop through numbers 1 to 10
+                for num in range(1, 11):
+                    if num == 5:
+                        print("Found 5, breaking the loop.")
+                        break  # Exit the loop when num is 5
+                    print("Number:", num)
+
+                print("----")
+
+                # Loop through numbers 1 to 10 again
+                for num in range(1, 11):
+                    if num == 5:
+                        print("Skipping 5.")
+                        continue  # Skip the rest of the loop when num is 5
+                    print("Number:", num)
+            </code>
+            </pre>
+            <p>In conclusion, iteration is a powerful concept in Python that allows you to efficiently repeat actions and process data in sequences like lists, strings, and ranges. By using for and while loops, you can automate repetitive tasks, making your code more concise and flexible. Loop control statements like break and continue further enhance how you manage the flow of execution within loops. Understanding and mastering iteration is essential for writing effective Python programs, especially when working with large datasets, automation, or user-driven logic.</p>
+       
+        </section>
+    </main>
+
+    <nav id="navbar">
+
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Benefits">Benefits</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Conditionals">Conditionals</a>
+        <a class="nav-link" href="#Iteration">Iteration</a>
+    
+    </nav>
+</body>
+</html>
