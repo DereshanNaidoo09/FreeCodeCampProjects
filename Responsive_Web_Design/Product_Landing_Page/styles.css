@@ -1,0 +1,164 @@
+* {
+  background-color: lightgrey;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  background-color: antiquewhite;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+#header > div {
+  background-color: antiquewhite;
+  display: flex;
+}
+#header-img {
+  background-color: antiquewhite;
+  width: 20%;
+}
+
+#Product-name {
+  background-color: antiquewhite;
+}
+
+#nav-bar {
+  background-color: antiquewhite;
+  font-size: large;
+  margin-left: 550px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+a {
+  background-color: antiquewhite;
+  padding: 0 20px 0 20px;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#form > p {
+  font-size: x-large;
+  padding-top: -10px;
+}
+
+#email {
+  background-color: aliceblue;
+  width: 20%;
+}
+
+#submit {
+  margin-top: 10px;
+  background-color: yellowgreen;
+  height: 30px;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#features > div {
+  display: flex;
+}
+
+.feature-icon {
+  width: 25%;
+}
+
+.feature-text {
+  text-align: center;
+  font-size: x-large;
+  width: 50%;
+  padding-top: 7%;
+}
+
+#video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#video-container > p {
+  font-size: x-large;
+}
+
+#video {
+  width: 45%;
+  height: 250px;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black;
+  width: 25%;
+  margin-left: 37%;
+  margin-top: 5%;
+  padding-bottom: 10px;
+}
+
+#pricing-button {
+  background-color: yellowgreen;
+}
+
+footer {
+  background-color: antiquewhite;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer > ul {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  background-color:antiquewhite;
+  padding: 0 5px;
+}
+
+footer > ul > li > a{
+  background-color:antiquewhite;
+}
+
+footer > span {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 500px) {
+    #header{
+      margin-left: -20px
+    }
+}
